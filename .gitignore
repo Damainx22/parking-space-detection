@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyTorch
+*.pth
+*.pt
+
+# Data
+data/raw/
+data/processed/
+*.jpg
+*.png
+*.jpeg
+
+# Checkpoints and results
+checkpoints/
+test_checkpoints/
+results/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Exceptions - keep directory structure
+!data/.gitkeep
+!checkpoints/.gitkeep
+!results/.gitkeep
+
+# Keep example images in docs
+!docs/*.png
+!docs/*.jpg
